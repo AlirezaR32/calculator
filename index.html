@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="form" id="myform">
+        <div class="body_cal"> 
+            <div class="show-result">
+                <input class="Display" type="text" placeholder="0" name="diplayResult" id="displayResult">
+            </div>
+            <div class="Button-G">
+                <div class="row">
+                    <input class="B_cal" type="button" name="b1" value="1" onclick="addCalculator(b1.value)">
+                    <input class="B_cal" type="button" name="b2" value="2" onclick="addCalculator(b2.value)">
+                    <input class="B_cal" type="button" name="b3" value="3" onclick="addCalculator(b3.value)">
+                    <input class="B_cal" type="button" name="bC" value="C" onclick="reset()" style="color : red">
+                </div>
+                <div class="row">
+                    <input class="B_cal" type="button" name="b4" value="4" onclick="addCalculator(b4.value)">
+                    <input class="B_cal" type="button" name="b5" value="5" onclick="addCalculator(b5.value)">
+                    <input class="B_cal" type="button" name="b6" value="6" onclick="addCalculator(b6.value)">
+                    <input class="B_cal" type="button" name="bmin" value="-" onclick="addCalculator(bmin.value)">
+                </div>
+                <div class="row">
+                    <input class="B_cal" type="button" name="b7" value="7" onclick="addCalculator(b7.value)">
+                    <input class="B_cal" type="button" name="b8" value="8" onclick="addCalculator(b8.value)">
+                    <input class="B_cal" type="button" name="b9" value="9" onclick="addCalculator(b9.value)">
+                    <input class="B_cal" type="button" name="bpower" value="*" onclick="addCalculator(bpower.value)">
+                </div>
+                <div class="row">
+                    <input class="B_cal" type="button" name="bDot" value="." onclick="addCalculator(bDot.value)">
+                    <input class="B_cal" type="button" name="b0" value="0" onclick="addCalculator(b0.value)">
+                    <input class="B_cal" type="button" name="bplus" value="+" onclick="addCalculator(bplus.value)">
+                    <input class="B_cal" type="button" name="bre" value="=" onclick="finilize()">
+                </div>
+                <div class="row">
+                    <input class="B_cal" type="button" name="bsqrt" value="&radic;" onclick="MathCal('sqrt')">
+                    <input class="B_cal" type="button" name="power" value="^" onclick="MathCal('pow')">
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="pro.js"></script>
+</body>
+</html>
