@@ -11,7 +11,10 @@ Supports basic arithmetic operations, power, and square root.
 - Elegant UI with custom styling
 
 ## 📁 Project Structure
-📦 SimpleCalculator ├── index.html       # Main HTML file ├── style.css        # Styling for the calculator └── pro.js           # JavaScript logic
+📦 SimpleCalculator
+├── index.html       # Main HTML file 
+├── style.css        # Styling for the calculator 
+└── pro.js           # JavaScript logic
 
 ## 🖥️ How to Run
 Just open `index.html` in your browser. No installation required.
